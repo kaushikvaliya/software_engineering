@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+.align-item {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* header */
+
+#bg {
+    background-color: black;
+    padding: 20px 0;
+}
+
+.logo {
+    color: yellow;
+}
+
+.header-text ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.header-text a {
+    color: #fff;
+}
+
+.header-text ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: yellow;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    margin-top: 4px;
+}
+
+.header-text ul li:hover::after {
+    width: 100%;
+}
+
+.search input {
+    padding: 10px 50px 10px 10px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+}
+
+.search button {
+    padding: 10px 30px;
+    border-radius: 0 10px 10px 0;
+    margin-left: -5px;
+    border: none;
+}
+
+
+/* hero section */
+
+#bg-img {
+    background-image: url(mysterious-winter-landscape-majestic-mountains-winter.jpg);
+    /* width: 100%; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 524px;
+    position: relative;
+}
+
+.bg-color {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.491);
+}
+
+.hero-text {
+    position: absolute;
+    width: 60%;
+    top: 140px;
+    left: 250px;
+}
+
+.hero-text h1 {
+    font-size: 70px;
+    color: rgb(244, 244, 241);
+}
+
+.hero-text p {
+    line-height: 24px;
+    margin: 30px 0;
+    color: rgb(248, 244, 244);
+}
+
+.hero-text button {
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(244, 244, 237);
+    color: #000;
+}
+
+.hero-text button:hover {
+    background-color: rgba(255, 255, 0, 0);
+    border: 2px solid yellow;
+    color: yellow;
+    box-shadow: 1px 1px 20px yellow;
+}
+
+#footer {
+    background-color: black;
+    height: 400px;
+}
+
+.footer-icon ul li {
+    display: inline-block;
+    padding: 0 10px 0 0;
+    margin-top: 20px;
+}
+
+.footer-icon i {
+    font-size: 30px;
+    color: yellow;
+}
+
+.caret-icon i {
+    color: #fff;
+}
+
+.caret-icon p {
+    margin-bottom: 10px;
+}
+
+.about-p {
+    width: 90%;
+    line-height: 24px;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.post ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.heading-h2 h2 {
+    color: yellow;
+    margin: 40px 0;
+}
+
+p {
+    color: #fff;
+}
+
+.contact-icon i {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-icon {
+    margin-bottom: 20px;
+}
+
+#footer2 {
+    background-color: rgb(2, 2, 63);
+    text-align: center;
+    padding: 30px 0;
+}
+
+.section4-aug {
+    border: 2px solid #fff;
+    border-radius: 500px;
+    padding: 6px 8px;
+    margin-right: 10px;
+}
+
+.section4-aug h3 {
+    color: #fff;
+}
+
+.bottem-margin {
+    margin-bottom: 15px;
+}
+
+.footer2-p span {
+    color: yellow;
+}
+
+.col-lg-12 {
+    width: 100%;
+    margin: 0 auto;
+}

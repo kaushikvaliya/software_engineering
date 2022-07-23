@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h2 {
+            margin: 20px 0;
+        }
+        
+        .gradient {
+            background: linear-gradient(360deg, #8291db98, #ffffff);
+            height: 60px;
+        }
+        
+        .padding {
+            padding: 0 150px;
+        }
+        
+        .margin-top {
+            margin-top: 50px;
+            background-color: #8291db98;
+            padding: 0 50px 30px 50px;
+        }
+        
+        .wert {
+            padding: 0 150px;
+        }
+        
+        .button1 {
+            margin-top: 30px;
+            margin-right: 20px;
+            color: rgb(251, 249, 249);
+            background-color: #228eac;
+            padding: 10px 30px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        
+        .button2 {
+            margin-top: 30px;
+            margin-left: 20px;
+            color: rgb(251, 249, 249);
+            background-color: #228eac;
+            padding: 10px 30px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        
+        input,
+        select {
+            border: 2px solid black;
+            border-radius: 6px;
+            padding: 5px 0 5px 5px;
+        }
+        
+        input,
+        label,
+        select {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="padding" align="center" width="100%">
+        <tr class="gradient">
+            <td colspan="4" align="center">
+                <h1>indidual Registration</h1>
+            </td>
+        </tr>
+    </table>
+
+    <form action="" class="wert">
+        <table class="margin-top" align="center" width="100%">
+            <tr>
+                <td colspan="4" align="left">
+                    <h2 font style="color: rgb(181, 33, 36)"> User particulars </h2>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="right"><label for="Login ID"><span style="color: brown">*</span>LoginID&nbsp;</label></td>
+                <td colspan="2" align="left"><input type="text" required /><br /></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="right"><label for="password"><span style="color: brown">*</span>password &nbsp;</label></td>
+                <td colspan="2" align="left"><input type=" text " required /><br /></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="right "><label for="Confirm password "><span style="color: brown ">*</span>Confirm password &nbsp;</label></td>
+                <td colspan="2" align="left"><input type="text " required /></td>
+            </tr>
+
+            <tr>
+                <td colspan="4" align="left ">
+                    <h2 font style="color:rgb(181, 33, 36) "> personal particulars </h2>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right "><label for="salutation"><span style="color: brown ">*</span>Salutation&nbsp;</label></td>
+                <td align="left">
+                    <select name=" " id=" ">
+                    <option value="0">- select -</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                </td>
+
+                <td align="right "><label for="fristname "><span style="color: brown ">*</span>First name&nbsp;</label></td>
+                <td align="left"><input type="text " required /></td>
+            </tr>
+
+            <tr>
+                <td align="right "><label for="Middle Name ">Middle Name&nbsp;</label></td>
+                <td align="left"><input type="text " required></td>
+                <td align="right "><label for="last name "><span style="color: brown ">*</span>lest Name&nbsp;</label></td>
+                <td align="left"><input type="text "></td>
+            </tr>
+
+            <tr>
+                <td align="right "><label for="Registration Status ">Registration Status&nbsp;</label></td>
+                <td align="left">
+                    <select name=" " id=" ">
+              <option value=" ">- select -</option>
+              <option value=" ">1</option>
+              <option value=" ">2</option>
+              <option value=" ">3</option>
+              <option value=" ">4</option>
+            </select>
+                </td>
+                <td align="right "><label for="Country "><span style="color: brown ">*</span>Country&nbsp;</label></td>
+                <td align="left">
+                    <select name=" " id=" ">
+                    <option value=" ">- select -</option>
+                    <option value=" ">India</option>
+                    <option value=" ">US</option>
+                    <option value=" ">Canada</option>
+                    <option value=" ">Russia</option>
+                    <option value=" ">Japan</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right "><label for="Email-id "><span style="color: brown ">*</span>Email-id&nbsp;</label></td>
+                <td align="left"><input type="Email" required /><br /></td>
+                <td align="right "><label for="Mobailr Number : "><span style="color: brown ">*</span>Mobailr Number&nbsp;</label></td>
+                <td align="left"><input type="number " required /><br /></td>
+            </tr>
+
+            <tr>
+                <td colspan="4" align="left ">
+                    <h2 font style="color: rgb(181, 33, 36) "> Account particulars</h2>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right "><label for="15 Degit Account "><span style="color: brown ">*</span>15 Degit Account no&nbsp;</label></td>
+                <td align="left"><input type="number " required></td>
+                <td align="right "><label for="Nick name "><span style="color: brown ">*</span>Nick Name&nbsp;</label></td>
+                <td align="left"><input type="text " /></td>
+            </tr>
+
+            <tr>
+                <td align="right "><label for="Fund transfer "><span style="color: brown ">*</span>Fund Transfer</label></td>
+                <td colspan="3" align="left">
+                    <select name=" " id=" ">
+              <option value=" ">- select -</option>
+              <option value=" ">1 crore</option>
+              <option value=" ">2 crore</option>
+              <option value=" ">3 crore</option>
+              <option value=" ">4 crore</option>
+            </select></td>
+            </tr>
+
+            <tr>
+                <td align="left" colspan="4">
+                    <h2 font style="color: rgb(181, 33, 36) "> declaration</h2>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                    <p>I have read, understood and hereby agree to the Terms and Conditions in respect of all products and channels.<br> Iunder stand that any changes in the terms and conditions applicable to this relationship would be made available to
+                        me on request at any IOB branches. I confirm that all accousts under this login name are singly and in case of joint account operated by either or survivor/ anyone or survivor(s) under his her joint name respectively. I do hereby
+                        declare that information furnished in this form is true to the best of my knowledge and belief.</p>
+                </td>
+
+
+                <tr>
+                    <td align="right" colspan="2"><button class="button1" type="submit">submit</button></td>
+                    <td align="left" colspan="2"><button class="button2" type="reset"> Reset </button></td>
+                </tr>
+
+        </table>
+
+    </form>
+</body>
+
+</html>

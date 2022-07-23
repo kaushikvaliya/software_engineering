@@ -1,0 +1,1 @@
+// A4.Write a program to find out the second smallest number from the array

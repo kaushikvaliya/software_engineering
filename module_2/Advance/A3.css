@@ -1,0 +1,44 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 0 auto;
+}
+
+.justify1 {
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 80px;
+    width: 200px;
+}
+
+.table tr td {
+    border: 1px solid black;
+    height: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.day {
+    background-color: rgb(141, 178, 208);
+}

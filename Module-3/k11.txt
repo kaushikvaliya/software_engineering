@@ -1,0 +1,17 @@
+std : 11
+roll : 1
+student name : kaushik
+student B-date : 3/8/1999
+parents name : valiya
+student fees : 13000.00
+E-mail : valiya.kaushik001@gmil.com
+mobile number : 8905512020
+
+std : 11
+roll : 2
+student name : nanji
+student B-date : 2/5/1988
+parents name : abcd
+student fees : 13000.00
+E-mail : valiya.kaushik001@gmil.com
+mobile number : 9725363690
